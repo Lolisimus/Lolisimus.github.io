@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Квадратичная функция</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
+  </head>
+  <body style="background-image: url(images/back.png); height: 100vh;">
+    <nav class="navbar navbar-expand-md navbar-light bg-light" styles='position: fixed;' aria-label="Fourth navbar example">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1">Графики и их функции</span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="navig-link active"href="index.html">Главная</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="navig-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Меню</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="line.html">Линейные функции</a></li>
+              <li><a class="dropdown-item" href="giperbola.html">Обратная пропорциональность</a></li>
+              <li><a class="dropdown-item" href="kvadrat.html">Квадратичная функция</a></li>
+              <li><a href="kub_funct.html" class="dropdown-item">Кубическая функция</a></li>
+              <li><a href="galim.html" class="dropdown-item">Функция вида y=√x</a></li>
+              <li><a href='stepen.html' class="dropdown-item">Степенные функции</a></li>
+              <li><a href="zavis.html" class="dropdown-item">Уравнение окружности</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="hist.html">Историческая справка</a></li>
+            </ul>
+          </li>
+        </ul>
+        </div>
+      </div>
+    </nav>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col H4">
+            <p class="h4">Квадратичная функция</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col" style="text-indent: 15px; font-weight: 600; margin: auto; padding-bottom: 50px;">
+            <p>График функции f(x) = ax^2+bx+c при a ≠ 0 называется параболой. Рассмотрим сначала функцию f(x) = ax^2:</p>
+            <ul>
+              <li>областью определения этой функции являются все x∈R;</li>
+              <li>решив уравнение ax^2 = 0 получим x = 0. Итак, единственный нуль этой функции x = 0;</li>
+              <li>функция является четной (для любых x);</li>
+              <li>ось OY является ее осью симметрии;</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <img class="img-fluid rounded mx-auto d-block" src="images/parab.gif" alt="1">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col content_in_rows" style="font-weight: 600; opacity: 65%; text-align: center;">
+            <p>График функции y = ax^2, a = 1 > 0</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col" style="text-indent: 15px; font-weight: 600; margin: auto; padding-bottom: 50px;">
+            <ul>
+              <li>при a > 0 функция убывает на x < 0 и возрастает на x > 0. Точка x = 0 по определению является минимумом функции. Областью значений функции в этом случае является промежуток [0; +∞);</li>
+              <li>при a < 0 функция возрастает на x < 0 и убывает на x > 0. Точка x = 0 является максимумом функции. Областью значений функции в этом случае является промежуток (–∞; 0];</li>
+            </ul>
+            <p>График функции f (x) = ax2 + bx + c легко построить из графика функции y = x2 геометрическими преобразованиями, используя формулу y = a(x+(b/(2a)))-(D/(4a)).</p>
+            <p>Для этого нужно растянуть график y = x2 в a раз от оси OX, при необходимости отразив его относительно оси абсцисс, а затем сместить получившийся график на b/(2a) влево и на D/(4a) вниз (если какое-либо из этих чисел меньше нуля, то соответствующее смещение нужно производить в противоположную сторону).</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <img class="img-fluid rounded mx-auto d-block" src="images/parab_kon.gif" alt="1">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col content_in_rows" style="font-weight: 600; opacity: 65%; text-align: center;">
+            <p>Парабола является одним из конических сечений</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col" style="text-indent: 15px; font-weight: 600; margin: auto; padding-bottom: 50px;">
+            <ul>
+              <li>точка x = -b/(2a) является точкой экстремума и называется вершиной параболы. Если a > 0, то в этой точке достигается минимум функции. Если a < 0, то в этой точке достигается максимум функции;</li>
+              <li>функция f (x) = ax2 + bx + c при b = 0 является четной, а в общем случае уже не является ни четной, ни нечетной.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id='down' class="container-fluid" style="background: #383838;">
+      <div class='row'>
+        <div class="col" style="text-align: right; font-weight: 600;">
+          <p style="color:rgb(255 255 255 / 90%);">Copyright © 2020 | Made with ♥ by Васильев Н. Н.</p>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src='script/bootstrap.bundle.js'></script>
+  </body>
+</html>
